@@ -1,0 +1,26 @@
+# core
+numpy>=1.23
+pandas>=1.5
+scipy>=1.9
+tqdm>=4.65
+Pillow>=9.5
+
+# medical image I/O
+pydicom>=2.4
+imageio>=2.31
+opencv-python>=4.8     # used only for fast resizing in prototype saver
+
+# deep-learning backbone
+torch>=2.0
+torchvision>=0.15
+
+# OpenAI CLIP (no PyPI release)
+git+https://github.com/openai/CLIP.git
+
+# classical ML / stats
+scikit-learn>=1.3
+statsmodels>=0.14
+
+# plotting (optional but nice for quick checks)
+matplotlib>=3.7
+seaborn>=0.12
